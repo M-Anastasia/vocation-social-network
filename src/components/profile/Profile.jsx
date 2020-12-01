@@ -6,7 +6,7 @@ import avatar from './../../avatar.png';
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img className={s.hat}
                      src='https://rendering.ru/media/catalog/product/cache/f1902fe734325d9088b4c1a61712c9d5/i/t/itrees-palms-03.jpg'/>
