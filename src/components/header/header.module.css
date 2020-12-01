@@ -1,0 +1,13 @@
+.header {
+    grid-column: span 3;
+    padding: 5px;
+    /*grid-area: h;*/
+    background-color: lavender;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 90px;
+}

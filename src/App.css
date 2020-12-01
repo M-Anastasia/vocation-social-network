@@ -1,76 +1,20 @@
-/*.app-wrapper {*/
-    /*display: grid;*/
-    /*!*grid-template-areas: "h h" "n c";*!*/
-    /*!*grid-template-rows: 60px 1fr;*!*/
-    /*!*grid-template-columns: 2fr 10fr;*!*/
-    /*!*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*!*/
-    /*!*grid-gap: 10px;*!*/
-
-    /*grid-template-columns: 200px 1fr;*/
-    /*grid-template-rows: auto 1fr;*/
-    /*grid-gap: 10px;*/
-/*}*/
-
 .app-wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 
 @media (min-width: 768px) {
     .app-wrapper {
         display: grid;
-        grid-template-columns: 200px 1fr;
+        /*margin: 0 auto;*/
+        /*width: 1200px;*/
+        grid-template-columns:  200px 1fr;
         grid-template-rows: auto 1fr;
         grid-gap: 10px;
 
     }
-}
-
-.header {
-    grid-column: span 3;
-    padding: 20px;
-    /*grid-area: h;*/
-    background-color: lavender;
-}
-
-.nav {
-    /*grid-area: n;*/
-    padding: 20px;
-    background-color: lavender;
-}
-
-.content {
-    /*grid-area: c;*/
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    flex: 1;
-    padding: 20px;
-    background-color: aliceblue;
-}
-
-.personal-information {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto 1fr;
-    grid-gap: 20px;
-}
-
-.logo {
-    width: 100px;
-}
-
-.hat {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.avatar {
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
 }

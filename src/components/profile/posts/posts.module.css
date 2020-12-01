@@ -1,0 +1,27 @@
+.personal-information_title {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    color: #404040;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.post_text {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: lavender;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 10px;
+    color: #404040;
+    font-size: 16px;
+    resize: none;
+}
+
+.posts {
+    display: grid;
+    row-gap: 20px;
+}

@@ -1,0 +1,18 @@
+.nav {
+    /*grid-area: n;*/
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    padding: 20px;
+    background-color: lavender;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-button {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: #262626;
+}

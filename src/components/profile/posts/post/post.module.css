@@ -1,0 +1,20 @@
+.small_img_btn {
+    padding: 25px;
+    border-radius: 100%;
+    border: 0;
+    background-color: #21D4FD;
+}
+
+.post_msg {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: #404040;
+    padding-top: 1vw;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    column-gap: 20px;
+}
