@@ -21,19 +21,11 @@
 .app-wrapper-content {
     /*grid-area: c;*/
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-auto-columns: minmax(100px, 900px);
     grid-gap: 20px;
     flex: 1;
     padding: 20px;
     background-color: aliceblue;
     border-radius: 15px;
     margin-bottom: 10px;
-}
-
-.top {
-    height: 0;
-    width: 100%;
-    object-fit: cover;
-    visibility: hidden;
 }

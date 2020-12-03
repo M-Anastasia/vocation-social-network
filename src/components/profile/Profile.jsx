@@ -1,7 +1,6 @@
 import React from "react";
 import s from './profile.module.css';
 import m from '../../App.module.css';
-import '../../styles/btn.scss';
 import Posts from './posts/Posts';
 import avatar from './../../avatar.png';
 

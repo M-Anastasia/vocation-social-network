@@ -17,7 +17,7 @@ const App = () => {
                 <Header/>
                 <Navbar/>
                 <Route path={'/profile'} component={Profile}/>
-                <Route path={'/messages'} component={Messages}/>
+                <Route path={'/dialogs'} component={Messages}/>
                 <Route path={'/news'} component={News}/>
                 <Route path={'/music'} component={Music}/>
                 <Route path={'/settings'} component={Settings}/>

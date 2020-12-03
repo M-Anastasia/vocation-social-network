@@ -1,0 +1,67 @@
+.filling {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.dialogs {
+    display: grid;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    row-gap: 10px;
+    max-height: 600px;
+    overflow: scroll;
+}
+
+.dialogs_item {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #262626;
+    text-decoration: none;
+    background-color: #e1f5ec;
+    border-radius: 15px;
+    /*border: 1px solid #262626;*/
+}
+
+.dialog {
+    display: grid;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    row-gap: 10px;
+    grid-auto-columns: minmax(10px, 600px);
+    max-height: 600px;
+    overflow: scroll;
+    background-color: #e1f5ec;
+    border-radius: 15px;
+    /*border: 1px solid #262626;*/
+}
+
+.dialog_item {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #262626;
+}
+
+.message {
+    display: grid;
+    row-gap: 20px;
+}
+
+.message_text {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #e1f5ec;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 10px;
+    color: #404040;
+    font-size: 16px;
+    resize: none;
+}
