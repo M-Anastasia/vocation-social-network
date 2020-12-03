@@ -15,4 +15,9 @@
     font-size: 20px;
     line-height: 40px;
     color: #262626;
+    text-decoration: none;
+}
+
+.active {
+    color: grey;
 }
